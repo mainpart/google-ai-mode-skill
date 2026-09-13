@@ -2,11 +2,11 @@
 
 # google-ai-mode-skill
 
-**The problem.** You send an agent to research a topic. It fires thirty searches, fetches thirty pages, reads them all, stitches them together, decides what is still missing, and goes back for another round. Every page it reads passes through your context window and your bill, and most of it is discarded on the way to the summary.
+**Research via Google AI — fast, cheap, sourced.**
 
-**The fix.** Hand that loop to Google. Google AI Mode already does the reading and mixing on its side: one query returns a digest of many sources with links, and the thread accepts follow-ups — so the agent can push the topic from a different angle, ask for what was missed, or challenge a claim, and get the next digest back, without ever fetching a page itself. The agent only reads summaries, which saves tokens and time and leaves the source list for you to check.
+A drop-in replacement for "deep research" and Perplexity-style loops: instead of your agent fetching thirty pages and reading them all, it asks Google AI Mode, gets a digest of many sources with links, and keeps asking follow-ups in the same thread — from your own Chrome, on your own account.
 
-This skill runs that loop from a background tab of your own Chrome — your account, your region, no focus stolen — and knows how to keep the follow-ups inside one Google thread.
+**Why it's cheaper.** Google already reads and mixes the pages on its side; the agent reads only the digests. What's left for it is the part that needs judgement — pick the angle, challenge a claim, ask what was missed. Fewer tokens, minutes instead of tens of minutes, and a source list you can check.
 
 ## Install
 
