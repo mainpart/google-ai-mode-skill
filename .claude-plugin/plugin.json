@@ -1,0 +1,7 @@
+{
+  "name": "google-ai-mode-skill",
+  "description": "Query Google AI Mode through the user's live Chrome via any browser tool that can run JavaScript in a tab; follow-ups stay in the same thread.",
+  "version": "1.0.0",
+  "author": { "name": "Dmitry Krasnikov", "email": "dmitry.krasnikov@gmail.com" },
+  "repository": "https://github.com/mainpart/google-ai-mode-skill"
+}

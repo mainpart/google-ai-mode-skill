@@ -1,0 +1,3 @@
+# Hero banner prompt
+
+Wide 3:1 hero banner. Foreground: a browser tab silhouette drawn as a thin outline, slightly translucent, floating behind a larger opaque tab (the user's) — the back tab glows faintly, the front tab is untouched. Midground: from the back tab, a thread of connected speech bubbles trails to the right, each bubble with a small link chip hanging under it. Background: dark charcoal with a subtle grid. Palette: charcoal #1E1F22, Google-ish blue #4285F4 for the glow, muted white #E8EAED, one accent of amber #FBBC04 on the link chips. Flat vector style, generous negative space. The only text: "google-ai-mode-skill" in a clean sans-serif, bottom-left. No other words, no Google logo.
